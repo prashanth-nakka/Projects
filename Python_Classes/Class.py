@@ -46,46 +46,45 @@
 # print(id(s))
 # print(id(s2))
 
-# read()
-with open("abc.txt",'r') as f:
-    f.read()
-    print(f.closed())
-print("Is File Closed?", f.closed())
+# # read()
+# with open("abc.txt",'r') as f:
+#     f.read()
+#     print(f.closed())
+# print("Is File Closed?", f.closed())
 
-# read(n)
-with open("abc.txt", 'r') as f:
-    f.read(3)
-    print(f.closed())
-print("Is File Closed?", f.closed())
+# # read(n)
+# with open("abc.txt", 'r') as f:
+#     f.read(3)
+#     print(f.closed())
+# print("Is File Closed?", f.closed())
 
-# readline()
-with open('abc.txt', 'r') as f:
-    f.readline()
-    print(f.closed())
-print("Is File Closed?", f.closed())
+# # readline()
+# with open('abc.txt', 'r') as f:
+#     f.readline()
+#     print(f.closed())
+# print("Is File Closed?", f.closed())
 
-# readlines()
-with open('abc.txt', 'r') as f:
-    f.readlines()
-    print(f.closed())
-print("Is File Closed?", f.closed())
+# # readlines()
+# with open('abc.txt', 'r') as f:
+#     f.readlines()
+#     print(f.closed())
+# print("Is File Closed?", f.closed())
 
-# write()
-with open('abc.txt', 'w') as f1:
-    f1.write("John\n")
-    f1.write("24\n")
-    f1.write("M\n")
-    print("Written Successfully")
-print("Is File Closed?", f1.closed())
+# # write()
+# with open('abc.txt', 'w') as f1:
+#     f1.write("John\n")
+#     f1.write("24\n")
+#     f1.write("M\n")
+#     print("Written Successfully")
+# print("Is File Closed?", f1.closed())
 
-# writelines()
-with open('abc.txt', 'w') as f2:
-    l1 = ["John Doe\n", "24\n", "M\n", "35000\n"]
-    f2.writelines(l1)
-    print("written success")
-    print()
-    print("Details")
-    for x in f2:
-        print(x)
-print("Is File Closed?", f2.closed())
-    
+# # writelines()
+# with open('abc.txt', 'w') as f2:
+#     l1 = ["John Doe\n", "24\n", "M\n", "35000\n"]
+#     f2.writelines(l1)
+#     print("written success")
+#     print()
+#     print("Details")
+#     for x in f2:
+#         print(x)
+# print("Is File Closed?", f2.closed())
